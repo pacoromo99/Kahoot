@@ -1,0 +1,2 @@
+PREGUNTAS(idPregunta, temaPregunta, enunciadoPregunta, resueltaPregunta)
+RESPUESTAS(idRespuesta, temaRespuesta, correctoRespuesta, incorrecto1Respuesta, incorrecto2Respuesta, incorrecto3Respuesta, idPreguntaFK)

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="58cm" height="12cm" viewBox="24 106 1154 233" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #90ee90" x="201" y="107" width="97.3" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="201" y="107" width="97.3" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="249.65" y="128.2">Preguntas</text>
+  </g>
+  <g>
+    <rect style="fill: #add8e6" x="782" y="117" width="105" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="782" y="117" width="105" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="834.5" y="138.2">Respuestas</text>
+  </g>
+  <g>
+    <ellipse style="fill: #90ee90" cx="83.5" cy="168" rx="58.5" ry="18"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="83.5" cy="168" rx="58.5" ry="18"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="83.5" y="171.2">idPregunta</text>
+  </g>
+  <g>
+    <ellipse style="fill: #add8e6" cx="682.05" cy="236" rx="70.05" ry="18"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="682.05" cy="236" rx="70.05" ry="18"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="682.05" y="239.2">temaRespuesta</text>
+  </g>
+  <g>
+    <ellipse style="fill: #add8e6" cx="770.45" cy="276" rx="85.45" ry="18"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="770.45" cy="276" rx="85.45" ry="18"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="770.45" y="279.2">correctoRespuesta</text>
+  </g>
+  <g>
+    <ellipse style="fill: #add8e6" cx="887" cy="319" rx="97" ry="18"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="887" cy="319" rx="97" ry="18"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="887" y="322.2">incorrecto1Respuesta</text>
+  </g>
+  <g>
+    <ellipse style="fill: #add8e6" cx="1091.2" cy="176" rx="66.2" ry="18"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="1091.2" cy="176" rx="66.2" ry="18"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="1091.2" y="179.2">idPreguntaFK</text>
+  </g>
+  <g>
+    <ellipse style="fill: #add8e6" cx="1080" cy="226" rx="97" ry="18"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="1080" cy="226" rx="97" ry="18"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="1080" y="229.2">incorrecto3Respuesta</text>
+  </g>
+  <g>
+    <ellipse style="fill: #add8e6" cx="657.35" cy="183" rx="62.35" ry="18"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="657.35" cy="183" rx="62.35" ry="18"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="657.35" y="186.2">idRespuesta</text>
+  </g>
+  <g>
+    <ellipse style="fill: #90ee90" cx="145.2" cy="231" rx="66.2" ry="18"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="145.2" cy="231" rx="66.2" ry="18"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="145.2" y="234.2">temaPregunta</text>
+  </g>
+  <g>
+    <ellipse style="fill: #add8e6" cx="1008" cy="279" rx="97" ry="18"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="1008" cy="279" rx="97" ry="18"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="1008" y="282.2">incorrecto2Respuesta</text>
+  </g>
+  <g>
+    <ellipse style="fill: #90ee90" cx="317.3" cy="236" rx="89.3" ry="18"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="317.3" cy="236" rx="89.3" ry="18"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="317.3" y="239.2">enunciadoRespuesta</text>
+  </g>
+  <g>
+    <ellipse style="fill: #90ee90" cx="431.6" cy="177" rx="81.6" ry="18"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="431.6" cy="177" rx="81.6" ry="18"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="431.6" y="180.2">resueltaPregunta</text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="703.768" y1="170.423" x2="780.995" y2="149.498"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="778.996" y1="257.187" x2="825.931" y2="153.864"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="708.197" y1="218.678" x2="805.823" y2="153.999"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="881.596" y1="300.06" x2="839.915" y2="153.979"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="986.101" y1="260.824" x2="857.395" y2="154.002"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1033.13" y1="166.725" x2="887.997" y2="143.545"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1035.64" y1="209.557" x2="885.566" y2="153.929"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="129.094" y1="156.2" x2="200.162" y2="137.808"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="163.031" y1="212.904" x2="230.926" y2="144.002"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="305.896" y1="217.288" x2="261.232" y2="144.004"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="380.776" y1="162.475" x2="299.269" y2="139.181"/>
+</svg>
