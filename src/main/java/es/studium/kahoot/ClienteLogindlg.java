@@ -56,7 +56,7 @@ public class ClienteLogindlg extends JDialog implements ActionListener{
 			getContentPane().add(btnParticipar);
 		}
 	}
-	@Override
+
 	public void actionPerformed(ActionEvent ae) {
 	if(ae.getSource().equals(btnParticipar)&& (textField.getText().length()!=0)) {
 		new ClienteKahoot();

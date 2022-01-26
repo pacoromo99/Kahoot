@@ -1,7 +1,5 @@
 package es.studium.kahoot;
 
-
-import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.EventQueue;
 
@@ -13,10 +11,14 @@ import javax.swing.ScrollPaneConstants;
 import javax.swing.border.EmptyBorder;
 import java.awt.FlowLayout;
 import javax.swing.JButton;
-import javax.swing.JScrollBar;
 
-public class ServidorKahoot extends JFrame {
-	 /*
+
+public class VistaServidor extends JFrame {
+	 /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	/*
 	  * VARIABLES
 	  */
 	
@@ -29,7 +31,7 @@ public class ServidorKahoot extends JFrame {
 			EventQueue.invokeLater(new Runnable() {
 				public void run() {
 					try {
-						ServidorKahoot frame = new ServidorKahoot();
+						VistaServidor frame = new VistaServidor();
 						frame.setVisible(true);
 					} catch (Exception e) {
 						e.printStackTrace();
@@ -41,7 +43,7 @@ public class ServidorKahoot extends JFrame {
 		/**
 		 * Crea frame.
 		 */
-		public ServidorKahoot() {
+		public VistaServidor() {
 			setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 			setBounds(100, 100, 534, 469);
 			contentPane = new JPanel();
@@ -78,5 +80,3 @@ public class ServidorKahoot extends JFrame {
 		}
 }
 
-
-}
