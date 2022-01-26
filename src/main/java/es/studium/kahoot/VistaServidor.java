@@ -17,6 +17,8 @@ public class VistaServidor extends JFrame {
 	 /**
 	 * 
 	 */
+		
+	
 	private static final long serialVersionUID = 1L;
 	/*
 	  * VARIABLES
@@ -27,18 +29,6 @@ public class VistaServidor extends JFrame {
 		/**
 		 * Lanza.
 		 */
-		public static void main(String[] args) {
-			EventQueue.invokeLater(new Runnable() {
-				public void run() {
-					try {
-						VistaServidor frame = new VistaServidor();
-						frame.setVisible(true);
-					} catch (Exception e) {
-						e.printStackTrace();
-					}
-				}
-			});
-		}
 	 
 		/**
 		 * Crea frame.
@@ -55,19 +45,19 @@ public class VistaServidor extends JFrame {
 			
 			JScrollPane scrollPane = new JScrollPane();
 			scrollPane.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
-			//scrollPane.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_ALWAYS);
+			scrollPane.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_ALWAYS);
 			contentPane.add(scrollPane);
 			
-			JTextArea textArea = new JTextArea();
-			textArea.setRows(10);
-			textArea.setColumns(50);
-			textArea.setEditable(false);
-			scrollPane.setViewportView(textArea);
+			JTextArea textLog = new JTextArea();
+			textLog.setRows(10);
+			textLog.setColumns(50);
+			textLog.setEditable(false);
+			scrollPane.setViewportView(textLog);
 		
 			
 			JScrollPane scrollPane2 = new JScrollPane();
 			scrollPane2.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
-			//scrollPane.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_ALWAYS);
+			scrollPane.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_ALWAYS);
 			contentPane.add(scrollPane2);
 			JTextArea textArea2 = new JTextArea();
 			textArea2.setRows(10);
