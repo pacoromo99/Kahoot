@@ -14,7 +14,12 @@ import javax.swing.JTextArea;
 
 public class ClienteKahoot extends JFrame implements ActionListener{
 
-	JLabel lbl_pregunta=new JLabel("Texto de prueba");
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	JLabel lbl_pregunta=new JLabel("PREGUNTA");
 
 	JRadioButton respuesta1=new JRadioButton("texto1");
 	JRadioButton respuesta2=new JRadioButton("texto2");
@@ -29,6 +34,7 @@ public class ClienteKahoot extends JFrame implements ActionListener{
 
 	public ClienteKahoot()
 	{
+		
 		setTitle("Cliente 1");
 		setBounds(100, 100, 500, 600);
 
@@ -60,6 +66,7 @@ public class ClienteKahoot extends JFrame implements ActionListener{
 		panel.add(btn_enviar);
 
 		add(panel);
+		
 		//Fin JPanel
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setVisible(true);
@@ -68,7 +75,7 @@ public class ClienteKahoot extends JFrame implements ActionListener{
 
 	public static void main(String[] args) {
 
-		new ClienteKahoot();
+		//new ClienteKahoot();
 
 	}
 
